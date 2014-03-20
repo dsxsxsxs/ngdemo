@@ -1,0 +1,20 @@
+[
+	{
+		"id":1,
+		"content": "abc",
+		"date": 1395321266952,
+		"currency": 689
+	},
+	{
+		"id":2,
+		"content":"def",
+		"date": 1295321266952,
+		"currency": 3999
+	},
+	{
+		"id":3,
+		"content":"ghi",
+		"date": 1390321266952,
+		"currency": 31900
+	}
+]

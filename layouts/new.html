@@ -1,0 +1,29 @@
+<div  class="container">
+	<nav class="navbar navbar-default" role="navigation">
+  
+</nav>
+
+<div class="table-responsive" style="margin: 10px auto">
+  <table class="table table-striped">
+  	<tbody>
+		<tr>
+			<th ng-click="predicate='id';reverse=!reverse">id(click me to sort)</th>
+			<th>content ng-bind</th>
+			<th ng-click="predicate='date';reverse=!reverse">date filter(click me to sort)</th>
+			<th>currency filter</th>
+			<th>currency filter</th>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr ng-repeat="row in table | orderBy:predicate:reverse">
+			<td>{{row.id}}</td>
+			<td ng-bind="row.content"></td>
+			<td>{{row.date | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+			<td>{{row.currency | currency:'NT$'}}</td>
+			<td>US{{row.currency | currency}}</td>
+		</tr>
+	</tbody>
+  </table>
+</div>
+
+</div>

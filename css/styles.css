@@ -1,0 +1,48 @@
+body{
+	font-family: "黑體-繁", "Heiti TC", "蘋果儷中黑", "Apple LiGothic Medium","微軟正黑體", "Microsoft JhengHei";
+	
+}
+.form{
+	padding: 10px auto;
+}
+.form>input{
+	margin:10px auto;
+}
+.chars{
+	text-align: center;
+}
+
+.chars{
+	font-size: 60px;
+}
+.sm-block{
+	display: block;
+	width: 100%;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.chars{
+		font-size: 80px;
+	}
+	.sm-block{
+		display: inline-block;
+		width: auto;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.chars{
+		font-size: 100px;
+	}
+	.sm-block{
+		display: inline-block;
+		width: auto;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
