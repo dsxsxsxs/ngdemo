@@ -5,11 +5,11 @@
 var debug = function(m){console.log(m);};
 var App = angular.module('App', [
   'ngRoute',
-  'ngAnimate',
   'ui.bootstrap',
   'timer',
   'AppCtrl',
-  'AppServices'
+  'AppServices',
+  'AppAnimations'
 ]);
 
 App.config(['$routeProvider',
